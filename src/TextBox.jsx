@@ -10,7 +10,7 @@ function TextBox(){
     if (char[i] === ' ') spaceCount++;
     if (char[i] !== ' ' && char[i] !== '\n' && wordCount == 0) wordCount=1;
     if (i>1 && char[i] !== ' ' && char[i-1] === ' ') wordCount++;
-    if (['.', '?', '!'].includes(char[i])) sentenceCount++;
+    if (i>1 && ['.', '?', '!'].includes(char[i]) && !['.', '?', '!'].includes(char[i-1])) sentenceCount++;
   }
   return(
     <>
