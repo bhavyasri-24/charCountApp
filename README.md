@@ -9,8 +9,11 @@ A short and fun project I built to learn the fundamentals of React. It’s simpl
 This app analyzes the text you type and shows you:
 
 -- Character Count
+
 -- Space Count
+
 -- Word Count
+
 -- Sentence Count
 
 All counts update instantly as you type!
@@ -22,8 +25,7 @@ I wanted a small, hands-on project to understand how React works — how compone
 🛠 Built With
 
 -- React
--- Tailwind CSS
--- Deployed on Vercel
-Tailwind CSS
 
-Deployed on Vercel
+-- Tailwind CSS
+
+-- Deployed on Vercel
